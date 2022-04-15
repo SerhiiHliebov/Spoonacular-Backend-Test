@@ -7,7 +7,6 @@ import okhttp3.ResponseBody;
 import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.*;
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
 import java.io.IOException;
 
