@@ -13,7 +13,7 @@ public class ComplexSearchTest extends Base{
 
         RestAssured.given()
                 .queryParam("includeIngredients", "chiken")
-                .queryParam("minProtein", "10")
+                .queryParam("minProtein", "15")
                 .queryParam("maxProtein", "25")
                 .log()
                 .uri()
